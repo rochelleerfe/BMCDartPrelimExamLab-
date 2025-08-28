@@ -33,7 +33,7 @@ void main() {
   print("Name: ${firstName} ${lastName}");
   print("Email: ${email}");
   
-  // Simple validation
+  // each validation identities
   if (firstName != null && lastName != null && email != null) {
     print("Registration successful!");
   } else {
@@ -91,6 +91,6 @@ void main() {
   } else {
     letterGrade = "See You Next Year";
   }
-  
+  // dito makikita kung nakapasa o hindi ang studewnt
   print("Letter Grade: $letterGrade");
 }
